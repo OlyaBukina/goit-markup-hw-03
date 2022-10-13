@@ -32,6 +32,10 @@ h1, h2, h3, p{
     padding: 0 15px;
     margin: 0 auto;
 }
+.section {
+    padding-top: 94px;
+    padding-bottom: 94px;
+}
 .visually-hidden {
     position: absolute;
     white-space: nowrap;
@@ -148,7 +152,7 @@ h1, h2, h3, p{
 
 /* Section Advantages */
 .advantages {
-    margin: 94px 0;
+    padding-bottom: 0;
 }
 .advantages-list {
     display: flex;
@@ -165,15 +169,7 @@ h1, h2, h3, p{
 }
 
 /* What do we do and Our team */
-.working-list {
-    display: flex;
-    margin-bottom: 94px;
-}
-.working-list .item:not(:last-child) {
-    margin-right: 30px;
-}
-.work h2,
-.team h2 {
+.sub-heading {
     margin-bottom: 50px;
     color: var(--title-color);
 
@@ -182,9 +178,14 @@ h1, h2, h3, p{
     line-height: 1.2;
     text-align: center;
 }
+.working-list {
+    display: flex;
+}
+.working-list .item:not(:last-child) {
+    margin-right: 30px;
+}
 
 .team {
-    padding: 94px 0;
     background-color: var(--secondary-background-color);
 }
 .team-list {
@@ -253,10 +254,6 @@ h1, h2, h3, p{
 }
 
 /* Portfolio */
-.portfolio-page {
-    margin-top: 94px;
-    margin-bottom: 94px;
-}
 .filter-buttons {
     display: flex;
     justify-content: center;
