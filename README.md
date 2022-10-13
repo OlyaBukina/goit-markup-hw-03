@@ -1,1 +1,2 @@
-# goit-markup-hw-03
+# Full Stack Developer course
+## Homework Week 3
