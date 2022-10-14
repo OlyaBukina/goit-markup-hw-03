@@ -79,6 +79,9 @@ h1, h2, h3, p{
 .logo span {
     color: var(--accent-color);
 }
+.page-header .logo {
+    padding: 32px 0;
+}
 .page-header .link {
     font-weight: 500;
     line-height: 1.2;
@@ -128,7 +131,7 @@ h1, h2, h3, p{
     text-transform: uppercase;
     text-align: center;
 }
-.hero .primary-button {
+.primary-button {
     padding: 10px 32px;
 
     background-color: var(--accent-color);
@@ -143,8 +146,8 @@ h1, h2, h3, p{
     text-align: center;
     letter-spacing: 0.06em;
 }
-.hero .primary-button:hover,
-.hero .primary-button:focus {
+.primary-button:hover,
+.primary-button:focus {
     background-color: var(--secondary-background-color);
     color: var(--title-color);
     cursor: pointer;
@@ -165,7 +168,11 @@ h1, h2, h3, p{
     color: var(--title-color);
 
     font-weight: 700;
+    font-size: 14px;
     line-height: 1.2;
+}
+.advantages .text {
+    line-height: 1.7;
 }
 
 /* What do we do and Our team */
